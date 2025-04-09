@@ -40,6 +40,11 @@
 
 #    define LOW_BAT_IND_INDEX 99 // Space
 
+#    ifdef VIA_ENABLE
+#        define VIA_QMK_RGBLIGHT_ENABLE
+#    endif
+
+
 // RGB Matrix Animation modes. Explicitly enabled
 // For full list of effects, see:
 // https://docs.qmk.fm/#/feature_rgb_matrix?id=rgb-matrix-effects
